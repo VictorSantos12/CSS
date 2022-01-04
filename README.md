@@ -31,57 +31,23 @@ O chamado <i>conjunto de regras</i> é basicamente um objeto composto pelas segu
 
 O seletor define o elemento HTML ao qual o style será aplicado, podendo ser definido por classe, por id, por tag e por atributo, sendo declarados da seguinte forma respectivamente:
 
-
-<h3>Por Classe</h3>
-
-
-Quando um seletor é definido por classe, todos os elementos DOM que forem declarados com essa classe terão as caracteristicas atribuidas a si. A sintaxe dos seletores definidos por classes é:
-
-
     .container {}
 
-    
-<h3>Identificador</h3>
-
-
-Um seletor por identificador, ou id, define que todos os elementos DOM que possuirem determinado id terão as caracteristicas atribuidas a si. A sintaxe dos seletores definidos por id é:
-
+<br>
 
     #menu {}
     
-
-<h3>Por Tag</h3>
-
-
-Da mesma forma que os anteriores, um seletor definido a partir de determinda tag define que todas as tags do tipo terão as características atribuidas a si.A sintaxe dos seletores definidos por tag é:
+<br>
 
     a {}
+
+<br>
     
-
-<h3>Por Atributo</h3>
-
-
-No caso do seletor definido a partir de atributos, todos os elementos DOM do tipo e que possuirem determinado atributo terão as características atribuidas a si. A sintaxe dos seletores definidos por atributo é:
-
-
     a[target="_blank"] {}
 
 
 <h2>Declarações</h2>
 
-
-As declarações são definidas pelas propriedades do objeto que especificam quais propriedades do elemento serão estilizados, como por exemplo cor, size, font-family e entre outras que serão abordadas posteriormente.
-
-
 <h2>Propriedades</h2>
 
-
-As propriedade são as estilizações possíveis de customizar com as regras em determinado elemento.
-
-
 <h2>Valor</h2>
-
-
-O valor é definido dentre de uma série de possibilidades disponíveis dentro da regra de estilização do CSS.
-
-
