@@ -69,6 +69,19 @@ No caso do seletor definido a partir de atributos, todos os elementos DOM do tip
 
 <h2>Declarações</h2>
 
+
+As declarações são definidas pelas propriedades do objeto que especificam quais propriedades do elemento serão estilizados, como por exemplo cor, size, font-family e entre outras que serão abordadas posteriormente.
+
+
 <h2>Propriedades</h2>
 
+
+As propriedade são as estilizações possíveis de customizar com as regras em determinado elemento.
+
+
 <h2>Valor</h2>
+
+
+O valor é definido dentre de uma série de possibilidades disponíveis dentro da regra de estilização do CSS.
+
+
