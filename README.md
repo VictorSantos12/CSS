@@ -61,7 +61,7 @@ A forma mais comum de criar uma StyleSheet para um arquivo HTML é utilizar um a
     </header>
 
 
-A propriedade rel define a relação entre ambos os arquivos HTML e CSS, já a href define o nome do arquvo CSS em questão.
+A propriedade rel define a relação entre ambos os arquivos HTML e CSS, já a href define o path que aponta para o nome do arquvo CSS em questão.
 
 
 <h1>CSS Básico</h1>
@@ -249,16 +249,16 @@ As declarações são como atributos de um objeto, sendo elas as possibilidades 
 O CSS conta com mais de [100 propriedades](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference) distintas com uma infinidade de valores a serem utilizados. Veremos as mais utilizadas e seus efeitos adiante.
 
 
-<h1>O Conceito de Caixas</h1>
+<h1>Box Model</h1>
 
 
-Uma forma simples de visualizar como o CSS funciona é o conceito de caixas. Uma caisa possui uma série de características que definem sua aparência, como suas dimensões, podendo ser chamadas de altura e largura, a expessura das laterais que a compõem, o espaço entre as laterais e seu conteúdo, o espaço entre a caixa em si e outros elementos, sua cor e etc. O CSS possui uma propriedade para cada um desses elementos, obviamente não se limitando a estes e muito menos ao formato quadrado de uma caixa.
+Uma forma simples de visualizar como o CSS funciona é o conceito de caixas. Uma caisa possui uma série de características que definem um layout, como suas dimensões, podendo ser chamadas de altura e largura, a expessura das laterais que a compõem, o espaço entre as laterais e seu conteúdo, o espaço entre a caixa em si e outros elementos, sua cor e etc. O CSS possui uma propriedade para cada um desses elementos, obviamente não se limitando a estes e muito menos ao formato quadrado de uma caixa.
 
 Para ter uma ideia mais clara sobre o conceito, observe o exemplo a seguir:
 
 
 <div align="center">
- <img src="https://user-images.githubusercontent.com/61476935/148213796-52a2b335-29a8-4d10-829a-2fd965292557.png">
+ <img src="https://user-images.githubusercontent.com/61476935/148227625-5df96fc7-354a-4f29-87f2-a9c997d1d2b7.png">
 </div>
 
 
