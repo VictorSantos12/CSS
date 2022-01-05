@@ -1,3 +1,23 @@
-h1 {
-  color: rgb(47, 124, 240);
+body {
+  padding: 30px;
+  text-align: center;
+  background-color: rgb(184, 183, 183);;
+}
+
+#container {
+  height: 50vh;
+  width: 50vh;
+  text-align: center;
+  background-color: white;
+  border: 10px solid rgb(75, 106, 232);
+}
+
+div {
+  height: 150px;
+  width: 150px;
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background-color: rgb(75, 106, 232);
 }
