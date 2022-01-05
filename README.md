@@ -31,6 +31,7 @@ O chamado <i>conjunto de regras</i> é basicamente um objeto composto pelas segu
 
 O seletor define o elemento HTML ao qual o style será aplicado, podendo ser definido por classe, por id, por tag e por atributo, sendo declarados da seguinte forma respectivamente:
 
+
     .container {}
 
 <br>
@@ -48,6 +49,15 @@ O seletor define o elemento HTML ao qual o style será aplicado, podendo ser def
 
 <h2>Declarações</h2>
 
-<h2>Propriedades</h2>
 
-<h2>Valor</h2>
+As declarações são como atributos de um objeto, sendo elas as possibilidades de estilização que podem ser associadas a determinado seletor. Uma declaração consite na junção de propriedade e valor que se separam por dois pontos ```:``` e encerrada por ponto e vírgula ```;```:
+
+
+<div align="center">
+ <img src="https://user-images.githubusercontent.com/61476935/148139655-ffa6ca34-6ac6-4e46-91b1-d55b2e1e6f77.png">
+</div>
+
+
+O CSS conta com mais de [100 propriedades](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference) distintas com uma infinidade de valores a serem utilizados. Veremos as mais utilizadas e seus efeitos nos exemplos a seguir:
+
+
