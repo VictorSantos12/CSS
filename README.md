@@ -32,21 +32,24 @@ O chamado <i>conjunto de regras</i> é basicamente um objeto composto pelas segu
 O seletor define o elemento HTML ao qual o style será aplicado, podendo ser definido por classe, por id, por tag e por atributo, sendo declarados da seguinte forma respectivamente:
 
 
-|        Seletor          |   Definição   |   Exemplo   |
-| ----------------------- | ------ |
-|  Seletor de elementos
-|          ou
-|       tags html
-| ----------------------- |
-|
-|  
-|
-|
+<h3>Classe</h3>
 
+
+Define a seleção de elementos que possuem determinada classe dentro do template, por exemplo:
 
     .container {}
 
-<br>
+Seleciona:
+
+    <div class="container">
+    
+    </div>
+
+
+<h3>Id</h3>
+
+
+
 
     #menu {}
     
