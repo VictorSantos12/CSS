@@ -147,8 +147,8 @@ Para ter uma ideia mais clara sobre o conceito, observe o exemplo a seguir:
 
 As propriedades descritas no exemplo acima são propriedades básicas e estão presentes em todos os blocos que compõem a estrutura de um template, ou seja, qualquer elemento que fizer parte do DOM pode utilizá-los. Eles definem:
 
--```margin```: Consiste na definição de espaço entre um elemento e os demais a sua volta,
+- ```margin```: Consiste na definição de espaço entre um elemento e os demais a sua volta,
 
--```padding```: Consiste no espaço entre um elemento e seu conteúdo,
+- ```padding```: Consiste no espaço entre um elemento e seu conteúdo,
 
--```border```: Consiste na expessura, cor e densidade da borda de um elemento.
+- ```border```: Consiste na expessura, cor e densidade da borda de um elemento.
