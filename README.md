@@ -29,7 +29,7 @@ O chamado <i>conjunto de regras</i> é basicamente um objeto composto pelas segu
 <h2>Seletor</h2>
 
 
-O seletor define o elemento HTML ao qual o style será aplicado, podendo ser definido por classe, por id, por tag e por atributo, sendo declarados da seguinte forma respectivamente:
+O seletor define o elemento HTML ao qual o style será aplicado, podendo ser definido por classe, por id, por tag, por atributo e entre outros, sendo declarados da seguinte forma respectivamente:
 
 
 <h3>Classe</h3>
@@ -37,9 +37,12 @@ O seletor define o elemento HTML ao qual o style será aplicado, podendo ser def
 
 Define a seleção de elementos que possuem determinada classe dentro do template, por exemplo:
 
+
     .container {}
 
+
 Seleciona:
+
 
     <div class="container">
     
@@ -49,17 +52,73 @@ Seleciona:
 <h3>Id</h3>
 
 
+Normalmente um id define uma tag específica dentro do dom, porém, um id pode corresponder a mais de um elemento. Nesses casos, o CSS selecionar todos os elementos possuidores de determinado id da seguinte forma:
 
 
     #menu {}
+
+
+Seleciona:
+
+
+    <div id="menu">
     
-<br>
+    </div>
+
+
+<h3>Tag</h3>
+
+
+Quando uma tag HTML é definida como seletor, todas as tags semelhantes sofrem a aplicação do estilo:
+
 
     p {}
 
-<br>
+
+Seleciona:
+
+
+    <p>
+      texto
+    </p>
+    <p>
+      texto
+    </p>
+    <p>
+      texto
+    </p>
+    <p>
+      texto
+    </p>
+
+    ...
+
     
-    p[target="_blank"] {}
+<h3>Propriedades</h3>
+
+    
+Quando elementos possuem propriedades específicas como href, src, target e entre outros, é possível levá-las em conta quando um seletor CSS é declarado, fazendo com que só o elemento possuidor daquela propriedade seja selecionado:
+
+
+    img[src="image.png"] {}
+
+
+Seleciona:
+
+
+    <img scr="image.png">
+
+
+<h3>Pseudo-classe</h3>
+
+
+O estado de um elemento também pode definir uma especificidade no momento da seleção, ou seja, quando o elemento HTML estiver sobre efeito de determinada ação do usuário, como por exemplo:
+
+
+    a: hover {}
+
+
+A penas as tags a, cujo mouse cursor do mouse entrou em contato receberá as definições de estilo declaradas.
 
 
 <h2>Declarações</h2>
