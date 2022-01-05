@@ -35,7 +35,7 @@ A propriedade style, presente em praticamente todas as tags HTML, permite criar 
 <h2>Style Tag</h2>
 
 
-A tag style é uma alternativa mais específica à style property, sendo declarada na tag header e permitindo criar estilizaçõas muilt-line:
+A tag style é uma alternativa mais específica à style property, sendo a segunda em termos de prioridade de stylesheet. A tag style é declarada no header do template e permitindo criar estilizaçõas muilt-line:
 
 
     <header>
@@ -47,7 +47,7 @@ A tag style é uma alternativa mais específica à style property, sendo declara
     </header>
 
 
-Porém, seu uso não nem um pouco comum e tão pouco recomendado.
+Porém, seu uso não é comum e tão pouco recomendado.
 
 
 <h2>CSS File</h2>
