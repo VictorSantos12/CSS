@@ -12,6 +12,58 @@ O CSS, ou Cascading Style Sheets, é uma linguagem de folha de estilo utilizada 
 Tendo sido criado para complementar uma função que era destinada ao HTML, o CSS se tornou tão grande quanto o próprio, estando presente em praticamente qualquer aplicação Web em uma de suas versões, ou estando pré processado em ferramentas como o Sass, Less e Stylus.
 
 
+<h1>Como Utilizar o CSS</h1>
+
+
+Há formas distintas de utilizar o CSS, sendo algumas recomendadas em situações específicas e outras nem tanto, sendo elas as seguintes:
+
+
+<h2>Style Property</h2>
+
+
+A forma mais simples de estilizar um elemento HTML é utilizando a propriedade style:
+
+
+    <body>
+      <h1 style="color: blue;">Hello, world!</h1>
+    </body>
+
+
+A propriedade style, presente em praticamente todas as tags HTML, permite criar uma estilização inline bastante simples, e que possui prioridade com relação as demais, porém, é pouco recomendada e muitas vezes ignorada.
+
+
+<h2>Style Tag</h2>
+
+
+A tag style é uma alternativa mais específica à style property, sendo declarada na tag header e permitindo criar estilizaçõas muilt-line:
+
+
+    <header>
+      <style>
+        h1 {
+          color: blue;
+        }
+      </style>
+    </header>
+
+
+Porém, seu uso não nem um pouco comum e tão pouco recomendado.
+
+
+<h2>CSS File</h2>
+
+
+A forma mais comum de criar uma StyleSheet para um arquivo HTML é utilizar um arquivo a parte, posteriromente o referenciando na file HTML da seguinte forma:
+
+
+    <header>
+      <link rel="stylesheet" href="styles.css">
+    </header>
+
+
+A propriedade rel define a relação entre ambos os arquivos HTML e CSS, já a href define o nome do arquvo CSS em questão.
+
+
 <h1>CSS Básico</h1>
 
 
@@ -118,6 +170,71 @@ O estado de um elemento também pode definir uma especificidade no momento da se
 A penas as tags a cujo cursor do mouse entrou em contato receberá as definições de estilo declaradas.
 
 
+<h2>Combinando Seletores</h2>
+
+
+Um seletor CSS pode conter mais de um elemento definido, cirando variações mais específicas de estilização. Por exemplo, é possível definir que apenas elementos children específicos recebam a estilização, sendo chamados de descendant selector:
+
+
+    <div>
+      <p>Selected</p>
+      <p>Selected</p>
+      <p>Selected</p>
+      <a>Unselected</a>
+    </div>
+
+
+Para que apenas um elemento children específico da div seja selecionado, basta declarar deu identificar após o seletor do elemento que o contem, por exemplo:
+
+
+    div p {
+      color: blue;
+    }
+
+
+O mesmo pode ser feito tendo como seletor uma classe, definido uma seleção ainda mais específica. Imagine o seguinte cenário:
+
+
+    <div class="my-div">
+      <h1 class="my-h1">
+        Selected
+      </h1>
+      <h1>
+        Unselected
+      </h1>
+    </div>
+
+    <div>
+
+     ...
+
+    </div>
+
+
+Para acessar um children específico dentro de uma tag específica, pode-se combinar uma seleção por tag, definindo o tipo de elemento, e por id, definindo qual dos elementos será selecionado:
+
+
+     div .my-div h1 . my-h1 {
+        color: blue;
+     }
+
+
+Além disso, também é possível compartilhar declarações entre elementos definindo mais de um seletor por declaração, separando cada um deles por vírgula:
+
+
+    .selectorOne {         .selectorTwo {
+      font-size: 200%        font-size: 200%
+    }                      }
+
+
+O exemplo acima poderia ser simplesmente:
+
+
+    .selectorOne, .selectorTwo {
+      font-size: 200%
+    }
+
+
 <h2>Declarações</h2>
 
 
@@ -147,8 +264,20 @@ Para ter uma ideia mais clara sobre o conceito, observe o exemplo a seguir:
 
 As propriedades descritas no exemplo acima são propriedades básicas e estão presentes em todos os blocos que compõem a estrutura de um template, ou seja, qualquer elemento que fizer parte do DOM pode utilizá-los. Eles definem:
 
-- ```margin```: Consiste na definição de espaço entre um elemento e os demais a sua volta,
 
-- ```padding```: Consiste no espaço entre um elemento e seu conteúdo,
+- ```margin```: Consiste na definição de espaço entre um elemento e os demais a sua volta.
+
+- ```padding```: Consiste no espaço entre um elemento e seu conteúdo.
 
 - ```border```: Consiste na expessura, cor e densidade da borda de um elemento.
+
+
+<h1>Especificações</h1>
+
+
+Tendo entendido os conceitos básicos do CSS, iremos abordar características mais específicas da estilização de elementos, como as definições básicas de proporção e espaçamento e como utilizá-las, as definições de cores e seus tipos, sombreamento, como atribuir diferentes formas aos elementos, e etc.
+
+
+<h2>Proporção</h2>
+
+
