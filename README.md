@@ -141,5 +141,5 @@ Para ter uma ideia mais clara sobre o conceito, observe o exemplo a seguir:
 
 
 <div align="center">
- <img src="https://user-images.githubusercontent.com/61476935/148213656-b951ac60-383b-459a-a339-ea3eeb954e6d.png">
+ <img src="https://user-images.githubusercontent.com/61476935/148213796-52a2b335-29a8-4d10-829a-2fd965292557.png">
 </div>
