@@ -252,7 +252,7 @@ O CSS conta com mais de [100 propriedades](https://developer.mozilla.org/en-US/d
 <h1>Box Model</h1>
 
 
-Uma forma simples de visualizar como o CSS funciona é o conceito de caixas. Uma caisa possui uma série de características que definem um layout, como suas dimensões, podendo ser chamadas de altura e largura, a expessura das laterais que a compõem, o espaço entre as laterais e seu conteúdo, o espaço entre a caixa em si e outros elementos, sua cor e etc. O CSS possui uma propriedade para cada um desses elementos, obviamente não se limitando a estes e muito menos ao formato quadrado de uma caixa.
+Uma forma simples de visualizar como o CSS funciona é o conceito de caixas, ou Box Model. Uma caixa possui uma série de características que definem seu layout, como suas dimensões, a expessura das laterais que a compõem, o espaço entre as laterais e seu conteúdo, o espaço entre a caixa em si e outros elementos, sua cor e etc. Cada elemento de um template equivale a uma caixa com as propriedades, obviamente não se limitando a estes e muito menos ao formato quadrado de uma caixa.
 
 Para ter uma ideia mais clara sobre o conceito, observe o exemplo a seguir:
 
@@ -265,11 +265,23 @@ Para ter uma ideia mais clara sobre o conceito, observe o exemplo a seguir:
 As propriedades descritas no exemplo acima são propriedades básicas e estão presentes em todos os blocos que compõem a estrutura de um template, ou seja, qualquer elemento que fizer parte do DOM pode utilizá-los. Eles definem:
 
 
+- ```content```: o content equivale ao conteúdo da caisa, seja um texto, imagem, ou outro elemento.
+
 - ```margin```: Consiste na definição de espaço entre um elemento e os demais a sua volta.
 
 - ```padding```: Consiste no espaço entre um elemento e seu conteúdo.
 
 - ```border```: Consiste na expessura, cor e densidade da borda de um elemento.
+
+- ```height```: Define a altura do elemento.
+
+- ```width```: Define a largura do elemento.
+
+
+Cada box obedece as dimensões de uma tela, podendo ter suas propriedades definidas com base em quatro direções: left, top, right, bottom. Por exemplo, tanto padding quanto margin podem ser definidas com base nessa direções:
+
+
+
 
 
 <h1>Especificações</h1>
