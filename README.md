@@ -258,7 +258,7 @@ Para ter uma ideia mais clara sobre o conceito, observe o exemplo a seguir:
 
 
 <div align="center">
- <img src="https://user-images.githubusercontent.com/61476935/148227625-5df96fc7-354a-4f29-87f2-a9c997d1d2b7.png">
+ <img src="https://user-images.githubusercontent.com/61476935/148229865-4e82193d-4658-40bf-9db4-7be410a06a78.png">
 </div>
 
 
